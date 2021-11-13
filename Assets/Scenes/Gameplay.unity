@@ -1053,8 +1053,16 @@ MonoBehaviour:
     Output: 20000
   - Name: Manager
     UnlockCost: 1000000
-    UpgradeCost: 1000000
+    UpgradeCost: 3000000
     Output: 2000000
+  - Name: Secretary
+    UnlockCost: 100000000
+    UpgradeCost: 300000000
+    Output: 200000000
+  - Name: Boss
+    UnlockCost: 1000000000000
+    UpgradeCost: 100
+    Output: 5000000000000
   ResourcesSprites:
   - {fileID: 21300000, guid: 39838efb5c027514999b8f79616f16f6, type: 3}
   - {fileID: 21300000, guid: 14f3e906d7c8ce84d9905bed569f6c08, type: 3}
@@ -1346,16 +1354,26 @@ MonoBehaviour:
     Value: Manager
     IsUnlocked: 0
     gold: 0
-  - Title: Milionaire
+  - Title: Unlock Secretary
+    Type: 0
+    Value: Secretary
+    IsUnlocked: 0
+    gold: 0
+  - Title: Boss of the Company
+    Type: 0
+    Value: Boss
+    IsUnlocked: 0
+    gold: 0
+  - Title: Billionaire
     Type: 1
     Value: 1
     IsUnlocked: 0
-    gold: 1000000
-  - Title: Billionaire
+    gold: 1000000000
+  - Title: Quadrillionaire
     Type: 1
     Value: 2
     IsUnlocked: 0
-    gold: 1000000000
+    gold: 1000000000000
 --- !u!1 &1581683694
 GameObject:
   m_ObjectHideFlags: 0

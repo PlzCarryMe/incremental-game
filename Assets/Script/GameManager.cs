@@ -152,13 +152,13 @@ public class GameManager : MonoBehaviour
     public void goldachievement(double totalgold)
     {
         var b = counter.ToString();
-        if (totalgold > 1000000 && counter == 1)
+        if (totalgold > 1000000000 && counter == 1)
         {
             AchievementController.Instance.UnlockAchievement2(AchievementType.TotalGold, b, totalgold);
             counter++;
         }
 
-        if (totalgold > 1000000000 && counter == 2)
+        if (totalgold > 1000000000000 && counter == 2)
         {
             AchievementController.Instance.UnlockAchievement2(AchievementType.TotalGold, b, totalgold);
             counter++;
