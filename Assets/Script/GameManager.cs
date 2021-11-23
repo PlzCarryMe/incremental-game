@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     [Range(0f, 1f)]
     public float AutoCollectPercentage = 0.1f;
     public ResourceConfig[] ResourcesConfigs;
-    public ResourceConfig2[] ResourcesConfigs2;
+    //public ResourceConfig2[] ResourcesConfigs2;
     public Sprite[] ResourcesSprites;
 
     public Transform ResourcesParent;
@@ -214,8 +214,8 @@ public struct ResourceConfig
     public double Output;
 
 }
-public struct ResourceConfig2
-{
-    public double gold;
-    
-}
+//public struct ResourceConfig2
+//{
+//    public double gold;
+
+//}
